@@ -1,5 +1,31 @@
 @import "bootstrap";
 
+/* universal */
+
+html {
+	overflow-y: scroll;
+}
+
+body {
+	padding-top: 40px;
+}
+
+section {
+	overflow: auto;
+}
+
+textarea {
+	resize: vertical;
+}
+
+.center {
+	text-align: center;
+}
+
+.center h1 {
+	margin-bottom: 10px;
+}
+
 /* header */
 
 #logo {
@@ -46,28 +72,33 @@ p {
 	line-height: 1.7em;
 }
 
-/* universal */
+/* footer */
 
-html {
-	overflow-y: scroll;
+footer {
+	margin-top: 45px;
+	padding-top: 5px;
+	border-top: 1px solid #eaeaea;
+	color: #999;
 }
 
-body {
-	padding-top: 40px;
+footer a {
+	color: #555;
 }
 
-section {
-	overflow: auto;
+footer a:hover {
+	color: #222;
 }
 
-textarea {
-	resize: vertical;
+footer small {
+	float: left;
 }
 
-.center {
-	text-align: center;
+footer ul {
+	float: right;
+	list-style: none;
 }
 
-.center h1 {
-	margin-bottom: 10px;
+footer ul li {
+	float: left;
+	margin-left: 10px;
 }
