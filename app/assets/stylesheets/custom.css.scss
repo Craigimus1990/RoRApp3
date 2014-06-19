@@ -1,5 +1,6 @@
 @import "bootstrap";
 
+
 /* universal */
 
 html {
@@ -38,11 +39,10 @@ textarea {
 	padding-top: 9px;
 	font-weight: bold;
 	line-height: 1;
-}
-
-#logo:hover {
-	color: #fff;
-	text-decoration: none;
+	&:hover {
+		color: #fff;
+		text-decoration: none;
+	}
 }
 
 /* typography */
@@ -64,7 +64,7 @@ h2 {
 	margin-bottom: 30px;
 	text-align: center;
 	font-weight: normal;
-	color: #999;
+	color: $grayLight;
 }
 
 p {
@@ -78,7 +78,7 @@ footer {
 	margin-top: 45px;
 	padding-top: 5px;
 	border-top: 1px solid #eaeaea;
-	color: #999;
+	color: $grayLight;
   a {
 	 color: #555;
 	 &:hover {
